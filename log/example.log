@@ -1,0 +1,1037 @@
+[2013-11-11 12:21:36] [::1] DBG:Uncaught SmartyException: unable to write file compiled\83549416f28345f953fbacdce982b312062e6345.file.ormAdmin.tpl.cache.php
+  At C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\util\smarty\libs\sysplugins\smarty_internal_write_file.php:74
+  [0] At Smarty_Internal_Write_File::writeFile("compiled\83549416f28345f953fbacdce982b312062e6345.file.ormAdmin.tpl.cache.php", String[11047], [Smarty]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\util\smarty\libs\sysplugins\smarty_internal_template.php:200)
+  [1] At Smarty_Internal_Template->compileTemplateSource() (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\util\smarty\libs\sysplugins\smarty_internal_templatebase.php:149)
+  [2] At Smarty_Internal_TemplateBase->fetch("ormAdmin.tpl", "", "", "", "1") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\util\smarty\libs\sysplugins\smarty_internal_templatebase.php:377)
+  [3] At Smarty_Internal_TemplateBase->display("ormAdmin.tpl") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\views\renderers\SmartyViewRenderer.class.php:72)
+  [4] At mvc\views\renderers\SmartyViewRenderer->render([mvc\Model], [mvc\views\View]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\AppResult.class.php:219)
+  [5] At mvc\AppResult->render() (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\request.php:67)
+
+[2013-11-11 13:36:18] [::1] DBG:(8) Undefined offset: 0
+  At C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\bootstrap.php:162
+  [0] At mvc\views\renderers\JSONViewRenderer->renderNode([mvc\Model]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\views\renderers\JSONViewRenderer.class.php:39)
+  [1] At mvc\views\renderers\JSONViewRenderer->getJSON([mvc\Model]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\views\renderers\JSONViewRenderer.class.php:33)
+  [2] At mvc\views\renderers\JSONViewRenderer->render([mvc\Model], [mvc\views\View]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\AppResult.class.php:219)
+  [3] At mvc\AppResult->render() (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\request.php:67)
+
+[2013-11-11 13:38:11] [::1] DBG:(8) Undefined offset: 0
+  At C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\bootstrap.php:162
+  [0] At mvc\views\renderers\JSONViewRenderer->renderNode([mvc\Model]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\views\renderers\JSONViewRenderer.class.php:39)
+  [1] At mvc\views\renderers\JSONViewRenderer->getJSON([mvc\Model]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\views\renderers\JSONViewRenderer.class.php:33)
+  [2] At mvc\views\renderers\JSONViewRenderer->render([mvc\Model], [mvc\views\View]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\AppResult.class.php:219)
+  [3] At mvc\AppResult->render() (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\request.php:67)
+
+[2013-11-11 13:39:54] [::1] DBG:(8) Undefined offset: 0
+  At C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\bootstrap.php:162
+  [0] At mvc\views\renderers\JSONViewRenderer->renderNode([mvc\Model]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\views\renderers\JSONViewRenderer.class.php:39)
+  [1] At mvc\views\renderers\JSONViewRenderer->getJSON([mvc\Model]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\views\renderers\JSONViewRenderer.class.php:33)
+  [2] At mvc\views\renderers\JSONViewRenderer->render([mvc\Model], [mvc\views\View]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\AppResult.class.php:219)
+  [3] At mvc\AppResult->render() (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\request.php:67)
+
+[2013-11-11 15:27:41] [::1] DBG:(8) Undefined offset: 0
+  At C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\bootstrap.php:162
+  [0] At mvc\views\renderers\JSONViewRenderer->renderNode([mvc\Model]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\views\renderers\JSONViewRenderer.class.php:44)
+  [1] At mvc\views\renderers\JSONViewRenderer->getJSON([mvc\Model]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\views\renderers\JSONViewRenderer.class.php:37)
+  [2] At mvc\views\renderers\JSONViewRenderer->render([mvc\Model], [mvc\views\View]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\AppResult.class.php:219)
+  [3] At mvc\AppResult->render() (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\request.php:67)
+
+[2013-11-11 15:28:35] [::1] DBG:(8) Undefined offset: 0
+  At C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\bootstrap.php:162
+  [0] At mvc\views\renderers\JSONViewRenderer->renderNode([mvc\Model]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\views\renderers\JSONViewRenderer.class.php:44)
+  [1] At mvc\views\renderers\JSONViewRenderer->getJSON([mvc\Model]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\views\renderers\JSONViewRenderer.class.php:37)
+  [2] At mvc\views\renderers\JSONViewRenderer->render([mvc\Model], [mvc\views\View]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\AppResult.class.php:219)
+  [3] At mvc\AppResult->render() (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\request.php:67)
+
+[2013-11-11 15:29:04] [::1] DBG:(8) Undefined offset: 0
+  At C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\bootstrap.php:162
+  [0] At mvc\views\renderers\JSONViewRenderer->renderNode([mvc\Model]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\views\renderers\JSONViewRenderer.class.php:44)
+  [1] At mvc\views\renderers\JSONViewRenderer->getJSON([mvc\Model]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\views\renderers\JSONViewRenderer.class.php:37)
+  [2] At mvc\views\renderers\JSONViewRenderer->render([mvc\Model], [mvc\views\View]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\AppResult.class.php:219)
+  [3] At mvc\AppResult->render() (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\request.php:67)
+
+[2013-11-11 15:29:45] [::1] DBG:(8) Undefined offset: 0
+  At C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\bootstrap.php:162
+  [0] At mvc\views\renderers\JSONViewRenderer->renderNode([mvc\Model]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\views\renderers\JSONViewRenderer.class.php:44)
+  [1] At mvc\views\renderers\JSONViewRenderer->getJSON([mvc\Model]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\views\renderers\JSONViewRenderer.class.php:37)
+  [2] At mvc\views\renderers\JSONViewRenderer->render([mvc\Model], [mvc\views\View]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\AppResult.class.php:219)
+  [3] At mvc\AppResult->render() (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\request.php:67)
+
+[2013-11-11 15:31:27] [::1] DBG:(8) Undefined offset: 0
+  At C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\bootstrap.php:162
+  [0] At mvc\views\renderers\JSONViewRenderer->renderNode([mvc\Model]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\views\renderers\JSONViewRenderer.class.php:44)
+  [1] At mvc\views\renderers\JSONViewRenderer->getJSON([mvc\Model]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\views\renderers\JSONViewRenderer.class.php:37)
+  [2] At mvc\views\renderers\JSONViewRenderer->render([mvc\Model], [mvc\views\View]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\AppResult.class.php:219)
+  [3] At mvc\AppResult->render() (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\request.php:67)
+
+[2013-11-11 15:32:01] [::1] DBG:(8) Undefined offset: 0
+  At C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\bootstrap.php:162
+  [0] At mvc\views\renderers\JSONViewRenderer->renderNode([mvc\Model]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\views\renderers\JSONViewRenderer.class.php:68)
+  [1] At mvc\views\renderers\JSONViewRenderer->renderNode([mvc\Model]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\views\renderers\JSONViewRenderer.class.php:44)
+  [2] At mvc\views\renderers\JSONViewRenderer->getJSON([mvc\Model]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\views\renderers\JSONViewRenderer.class.php:37)
+  [3] At mvc\views\renderers\JSONViewRenderer->render([mvc\Model], [mvc\views\View]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\AppResult.class.php:219)
+  [4] At mvc\AppResult->render() (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\request.php:67)
+
+[2013-11-11 15:32:30] [::1] DBG:(8) Undefined offset: 0
+  At C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\bootstrap.php:162
+  [0] At mvc\views\renderers\JSONViewRenderer->renderNode([mvc\Model]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\views\renderers\JSONViewRenderer.class.php:68)
+  [1] At mvc\views\renderers\JSONViewRenderer->renderNode([mvc\Model]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\views\renderers\JSONViewRenderer.class.php:44)
+  [2] At mvc\views\renderers\JSONViewRenderer->getJSON([mvc\Model]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\views\renderers\JSONViewRenderer.class.php:37)
+  [3] At mvc\views\renderers\JSONViewRenderer->render([mvc\Model], [mvc\views\View]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\AppResult.class.php:219)
+  [4] At mvc\AppResult->render() (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\request.php:67)
+
+[2013-11-11 16:02:00] [::1] DBG:(2) mvc\views\renderers\JSONViewRenderer::renderNode(): Node no longer exists
+  At C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\views\renderers\JSONViewRenderer.class.php:54
+  [0] At mvc\views\renderers\JSONViewRenderer->renderNode([mvc\Model]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\views\renderers\JSONViewRenderer.class.php:44)
+  [1] At mvc\views\renderers\JSONViewRenderer->getJSON([mvc\Model]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\views\renderers\JSONViewRenderer.class.php:37)
+  [2] At mvc\views\renderers\JSONViewRenderer->render([mvc\Model], [mvc\views\View]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\AppResult.class.php:219)
+  [3] At mvc\AppResult->render() (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\request.php:67)
+
+[2013-11-11 16:02:08] [::1] DBG:(2) mvc\views\renderers\JSONViewRenderer::renderNode(): Node no longer exists
+  At C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\views\renderers\JSONViewRenderer.class.php:54
+  [0] At mvc\views\renderers\JSONViewRenderer->renderNode([mvc\Model]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\views\renderers\JSONViewRenderer.class.php:44)
+  [1] At mvc\views\renderers\JSONViewRenderer->getJSON([mvc\Model]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\views\renderers\JSONViewRenderer.class.php:37)
+  [2] At mvc\views\renderers\JSONViewRenderer->render([mvc\Model], [mvc\views\View]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\AppResult.class.php:219)
+  [3] At mvc\AppResult->render() (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\request.php:67)
+
+[2013-11-20 13:36:20] [::1] DBG:(2) mvc\views\renderers\JSONViewRenderer::renderNode(): Node no longer exists
+  At C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\views\renderers\JSONViewRenderer.class.php:54
+  [0] At mvc\views\renderers\JSONViewRenderer->renderNode([mvc\Model]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\views\renderers\JSONViewRenderer.class.php:44)
+  [1] At mvc\views\renderers\JSONViewRenderer->getJSON([mvc\Model]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\views\renderers\JSONViewRenderer.class.php:37)
+  [2] At mvc\views\renderers\JSONViewRenderer->render([mvc\Model], [mvc\views\View]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\AppResult.class.php:219)
+  [3] At mvc\AppResult->render() (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\request.php:67)
+
+[2013-11-20 13:37:01] [::1] DBG:(2) mvc\views\renderers\JSONViewRenderer::renderNode(): Node no longer exists
+  At C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\views\renderers\JSONViewRenderer.class.php:54
+  [0] At mvc\views\renderers\JSONViewRenderer->renderNode([mvc\Model]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\views\renderers\JSONViewRenderer.class.php:44)
+  [1] At mvc\views\renderers\JSONViewRenderer->getJSON([mvc\Model]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\views\renderers\JSONViewRenderer.class.php:37)
+  [2] At mvc\views\renderers\JSONViewRenderer->render([mvc\Model], [mvc\views\View]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\AppResult.class.php:219)
+  [3] At mvc\AppResult->render() (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\request.php:67)
+
+[2013-11-20 13:37:08] [::1] DBG:(2) mvc\views\renderers\JSONViewRenderer::renderNode(): Node no longer exists
+  At C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\views\renderers\JSONViewRenderer.class.php:54
+  [0] At mvc\views\renderers\JSONViewRenderer->renderNode([mvc\Model]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\views\renderers\JSONViewRenderer.class.php:44)
+  [1] At mvc\views\renderers\JSONViewRenderer->getJSON([mvc\Model]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\views\renderers\JSONViewRenderer.class.php:37)
+  [2] At mvc\views\renderers\JSONViewRenderer->render([mvc\Model], [mvc\views\View]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\AppResult.class.php:219)
+  [3] At mvc\AppResult->render() (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\request.php:67)
+
+[2013-11-20 13:44:56] [::1] DBG:(2) mvc\views\renderers\JSONViewRenderer::renderNode(): Node no longer exists
+  At C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\views\renderers\JSONViewRenderer.class.php:54
+  [0] At mvc\views\renderers\JSONViewRenderer->renderNode([mvc\Model]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\views\renderers\JSONViewRenderer.class.php:44)
+  [1] At mvc\views\renderers\JSONViewRenderer->getJSON([mvc\Model]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\views\renderers\JSONViewRenderer.class.php:37)
+  [2] At mvc\views\renderers\JSONViewRenderer->render([mvc\Model], [mvc\views\View]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\AppResult.class.php:219)
+  [3] At mvc\AppResult->render() (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\request.php:67)
+
+[2013-11-20 16:11:55] [::1] DBG:(2) mvc\views\renderers\JSONViewRenderer::renderNode(): Node no longer exists
+  At C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\views\renderers\JSONViewRenderer.class.php:54
+  [0] At mvc\views\renderers\JSONViewRenderer->renderNode([mvc\Model]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\views\renderers\JSONViewRenderer.class.php:44)
+  [1] At mvc\views\renderers\JSONViewRenderer->getJSON([mvc\Model]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\views\renderers\JSONViewRenderer.class.php:37)
+  [2] At mvc\views\renderers\JSONViewRenderer->render([mvc\Model], [mvc\views\View]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\AppResult.class.php:219)
+  [3] At mvc\AppResult->render() (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\request.php:67)
+
+[2013-11-20 16:14:34] [::1] DBG:(2) mvc\views\renderers\JSONViewRenderer::renderNode(): Node no longer exists
+  At C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\views\renderers\JSONViewRenderer.class.php:54
+  [0] At mvc\views\renderers\JSONViewRenderer->renderNode([mvc\Model]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\views\renderers\JSONViewRenderer.class.php:44)
+  [1] At mvc\views\renderers\JSONViewRenderer->getJSON([mvc\Model]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\views\renderers\JSONViewRenderer.class.php:37)
+  [2] At mvc\views\renderers\JSONViewRenderer->render([mvc\Model], [mvc\views\View]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\AppResult.class.php:219)
+  [3] At mvc\AppResult->render() (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\request.php:67)
+
+[2013-11-20 16:15:42] [::1] DBG:(2) mvc\views\renderers\JSONViewRenderer::renderNode(): Node no longer exists
+  At C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\views\renderers\JSONViewRenderer.class.php:54
+  [0] At mvc\views\renderers\JSONViewRenderer->renderNode([mvc\Model]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\views\renderers\JSONViewRenderer.class.php:44)
+  [1] At mvc\views\renderers\JSONViewRenderer->getJSON([mvc\Model]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\views\renderers\JSONViewRenderer.class.php:37)
+  [2] At mvc\views\renderers\JSONViewRenderer->render([mvc\Model], [mvc\views\View]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\AppResult.class.php:219)
+  [3] At mvc\AppResult->render() (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\request.php:67)
+
+[2013-11-20 16:28:53] [::1] DBG:(2) mvc\views\renderers\JSONViewRenderer::renderNode(): Node no longer exists
+  At C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\views\renderers\JSONViewRenderer.class.php:54
+  [0] At mvc\views\renderers\JSONViewRenderer->renderNode([mvc\Model]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\views\renderers\JSONViewRenderer.class.php:44)
+  [1] At mvc\views\renderers\JSONViewRenderer->getJSON([mvc\Model]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\views\renderers\JSONViewRenderer.class.php:37)
+  [2] At mvc\views\renderers\JSONViewRenderer->render([mvc\Model], [mvc\views\View]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\AppResult.class.php:219)
+  [3] At mvc\AppResult->render() (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\request.php:67)
+
+[2013-11-20 16:31:07] [::1] DBG:(256) Could not load class "php\mvc\views\ViewRenderer". (Classpath: "C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN/clases", "C:/Users/jacano/Dropbox/subversion/josea.cano/clases")
+  At C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\bootstrap.php:189
+  [0] At autoload_mvc("php\mvc\views\ViewRenderer") (Anonymous)
+  [1] At spl_autoload_call("php\mvc\views\ViewRenderer") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\views\renderers\JSONViewRenderer.class.php:35)
+  [2] At require(String[113]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\bootstrap.php:173)
+  [3] At autoload_mvc("mvc\views\renderers\JSONViewRenderer") (Anonymous)
+  [4] At spl_autoload_call("mvc\views\renderers\JSONViewRenderer") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\AppContext.class.php:658)
+  [5] At mvc\AppContext->loadViewRenderer("json") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\AppContext.class.php:328)
+  [6] At mvc\AppContext->getViewRenderer("json") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\AppResult.class.php:243)
+  [7] At mvc\AppResult->resolveView("/", "table:generate") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\AppResult.class.php:190)
+  [8] At mvc\AppResult->render() (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\request.php:67)
+
+[2013-11-20 17:12:50] [::1] DBG:Uncaught core\CoreException: Class not found "OrmAdminController". ( Namespace: "controler", "app" )
+  At C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\util\Factory.class.php:164
+  [0] At util\Factory->getInstance("OrmAdminController", "", Array[3]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\util\Factory.class.php:215)
+  [1] At util\Factory::__callStatic("controller", Array[4]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:76)
+  [2] At util\Factory::controller("\OrmAdminController", [mvc\RESTRequest], "/", "ormAdmin") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:76)
+  [3] At mvc\RESTRequest->resolveController("/", "\", "ormAdmin") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:55)
+  [4] At mvc\RESTRequest->resolve() (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\App.class.php:80)
+  [5] At mvc\App::run([mvc\RESTRequest]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\request.php:65)
+
+[2013-11-20 17:22:16] [::1] DBG:Uncaught ReflectionException: Class app\\admOrm\OrmAdminController does not exist
+  At C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\util\Factory.class.php:157
+  [0] At ReflectionClass->__construct("app\\admOrm\OrmAdminController") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\util\Factory.class.php:157)
+  [1] At util\Factory->getInstance("OrmAdminController", "\admOrm", Array[3]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\util\Factory.class.php:215)
+  [2] At util\Factory::__callStatic("controller", Array[4]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:76)
+  [3] At util\Factory::controller("\admOrm\OrmAdminController", [mvc\RESTRequest], "/admOrm/", "ormAdmin") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:76)
+  [4] At mvc\RESTRequest->resolveController("/admOrm/", "\admOrm\", "ormAdmin") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:55)
+  [5] At mvc\RESTRequest->resolve() (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\App.class.php:80)
+  [6] At mvc\App::run([mvc\RESTRequest]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\request.php:65)
+
+[2013-11-20 17:29:01] [::1] DBG:Uncaught core\CoreException: Class not found "admOrmOrmAdminController". ( Namespace: "controler", "app" )
+  At C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\util\Factory.class.php:164
+  [0] At util\Factory->getInstance("admOrmOrmAdminController", "", Array[3]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\util\Factory.class.php:215)
+  [1] At util\Factory::__callStatic("controller", Array[4]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:76)
+  [2] At util\Factory::controller("admOrmOrmAdminController", [mvc\RESTRequest], "/admOrm/", "ormAdmin") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:76)
+  [3] At mvc\RESTRequest->resolveController("/admOrm/", "admOrm", "ormAdmin") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:55)
+  [4] At mvc\RESTRequest->resolve() (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\App.class.php:80)
+  [5] At mvc\App::run([mvc\RESTRequest]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\request.php:65)
+
+[2013-11-20 17:29:22] [::1] DBG:Uncaught ReflectionException: Class app\\admOrm\OrmAdminController does not exist
+  At C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\util\Factory.class.php:157
+  [0] At ReflectionClass->__construct("app\\admOrm\OrmAdminController") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\util\Factory.class.php:157)
+  [1] At util\Factory->getInstance("OrmAdminController", "\admOrm", Array[3]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\util\Factory.class.php:215)
+  [2] At util\Factory::__callStatic("controller", Array[4]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:76)
+  [3] At util\Factory::controller("\admOrm\OrmAdminController", [mvc\RESTRequest], "/admOrm/", "ormAdmin") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:76)
+  [4] At mvc\RESTRequest->resolveController("/admOrm/", "\admOrm\", "ormAdmin") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:55)
+  [5] At mvc\RESTRequest->resolve() (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\App.class.php:80)
+  [6] At mvc\App::run([mvc\RESTRequest]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\request.php:65)
+
+[2013-11-20 17:43:57] [::1] DBG:Uncaught ReflectionException: Class app\\admOrm\ormAdminController does not exist
+  At C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\util\Factory.class.php:157
+  [0] At ReflectionClass->__construct("app\\admOrm\ormAdminController") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\util\Factory.class.php:157)
+  [1] At util\Factory->getInstance("ormAdminController", "\admOrm", Array[3]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\util\Factory.class.php:215)
+  [2] At util\Factory::__callStatic("controller", Array[4]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:76)
+  [3] At util\Factory::controller("\admOrm\ormAdminController", [mvc\RESTRequest], "/admOrm/", "ormAdmin") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:76)
+  [4] At mvc\RESTRequest->resolveController("/admOrm/", "\admOrm\", "ormAdmin") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:55)
+  [5] At mvc\RESTRequest->resolve() (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\App.class.php:80)
+  [6] At mvc\App::run([mvc\RESTRequest]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\request.php:65)
+
+[2013-11-20 17:58:23] [::1] DBG:Uncaught core\CoreException: Class not found "jqueryController". ( Namespace: "controler", "app" )
+  At C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\util\Factory.class.php:164
+  [0] At util\Factory->getInstance("jqueryController", "\css", Array[3]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\util\Factory.class.php:215)
+  [1] At util\Factory::__callStatic("controller", Array[4]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:76)
+  [2] At util\Factory::controller("\css\jqueryController", [mvc\RESTRequest], "/css/", "jquery") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:76)
+  [3] At mvc\RESTRequest->resolveController("/css/", "\css\", "jquery") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:55)
+  [4] At mvc\RESTRequest->resolve() (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\App.class.php:80)
+  [5] At mvc\App::run([mvc\RESTRequest]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\request.php:65)
+
+[2013-11-20 17:58:23] [::1] DBG:Uncaught core\CoreException: Class not found "jqueryController". ( Namespace: "controler", "app" )
+  At C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\util\Factory.class.php:164
+  [0] At util\Factory->getInstance("jqueryController", "\js", Array[3]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\util\Factory.class.php:215)
+  [1] At util\Factory::__callStatic("controller", Array[4]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:76)
+  [2] At util\Factory::controller("\js\jqueryController", [mvc\RESTRequest], "/js/", "jquery") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:76)
+  [3] At mvc\RESTRequest->resolveController("/js/", "\js\", "jquery") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:55)
+  [4] At mvc\RESTRequest->resolve() (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\App.class.php:80)
+  [5] At mvc\App::run([mvc\RESTRequest]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\request.php:65)
+
+[2013-11-20 17:58:25] [::1] DBG:Uncaught core\CoreException: Class not found "ormController". ( Namespace: "controler", "app" )
+  At C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\util\Factory.class.php:164
+  [0] At util\Factory->getInstance("ormController", "\js", Array[3]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\util\Factory.class.php:215)
+  [1] At util\Factory::__callStatic("controller", Array[4]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:76)
+  [2] At util\Factory::controller("\js\ormController", [mvc\RESTRequest], "/js/", "orm") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:76)
+  [3] At mvc\RESTRequest->resolveController("/js/", "\js\", "orm") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:55)
+  [4] At mvc\RESTRequest->resolve() (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\App.class.php:80)
+  [5] At mvc\App::run([mvc\RESTRequest]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\request.php:65)
+
+[2013-11-20 17:58:25] [::1] DBG:Uncaught core\CoreException: Class not found "jqueryController". ( Namespace: "controler", "app" )
+  At C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\util\Factory.class.php:164
+  [0] At util\Factory->getInstance("jqueryController", "\js", Array[3]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\util\Factory.class.php:215)
+  [1] At util\Factory::__callStatic("controller", Array[4]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:76)
+  [2] At util\Factory::controller("\js\jqueryController", [mvc\RESTRequest], "/js/", "jquery") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:76)
+  [3] At mvc\RESTRequest->resolveController("/js/", "\js\", "jquery") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:55)
+  [4] At mvc\RESTRequest->resolve() (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\App.class.php:80)
+  [5] At mvc\App::run([mvc\RESTRequest]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\request.php:65)
+
+[2013-11-20 17:58:25] [::1] DBG:Uncaught core\CoreException: Class not found "jqueryController". ( Namespace: "controler", "app" )
+  At C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\util\Factory.class.php:164
+  [0] At util\Factory->getInstance("jqueryController", "\js", Array[3]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\util\Factory.class.php:215)
+  [1] At util\Factory::__callStatic("controller", Array[4]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:76)
+  [2] At util\Factory::controller("\js\jqueryController", [mvc\RESTRequest], "/js/", "jquery") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:76)
+  [3] At mvc\RESTRequest->resolveController("/js/", "\js\", "jquery") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:55)
+  [4] At mvc\RESTRequest->resolve() (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\App.class.php:80)
+  [5] At mvc\App::run([mvc\RESTRequest]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\request.php:65)
+
+[2013-11-20 17:58:25] [::1] DBG:Uncaught core\CoreException: Class not found "ormController". ( Namespace: "controler", "app" )
+  At C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\util\Factory.class.php:164
+  [0] At util\Factory->getInstance("ormController", "\css", Array[3]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\util\Factory.class.php:215)
+  [1] At util\Factory::__callStatic("controller", Array[4]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:76)
+  [2] At util\Factory::controller("\css\ormController", [mvc\RESTRequest], "/css/", "orm") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:76)
+  [3] At mvc\RESTRequest->resolveController("/css/", "\css\", "orm") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:55)
+  [4] At mvc\RESTRequest->resolve() (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\App.class.php:80)
+  [5] At mvc\App::run([mvc\RESTRequest]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\request.php:65)
+
+[2013-11-20 17:58:25] [::1] DBG:Uncaught core\CoreException: Class not found "mvcController". ( Namespace: "controler", "app" )
+  At C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\util\Factory.class.php:164
+  [0] At util\Factory->getInstance("mvcController", "\js", Array[3]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\util\Factory.class.php:215)
+  [1] At util\Factory::__callStatic("controller", Array[4]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:76)
+  [2] At util\Factory::controller("\js\mvcController", [mvc\RESTRequest], "/js/", "mvc") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:76)
+  [3] At mvc\RESTRequest->resolveController("/js/", "\js\", "mvc") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:55)
+  [4] At mvc\RESTRequest->resolve() (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\App.class.php:80)
+  [5] At mvc\App::run([mvc\RESTRequest]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\request.php:65)
+
+[2013-11-20 17:58:26] [::1] DBG:Uncaught core\CoreException: Class not found "cogeditController". ( Namespace: "controler", "app" )
+  At C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\util\Factory.class.php:164
+  [0] At util\Factory->getInstance("cogeditController", "\icons", Array[3]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\util\Factory.class.php:215)
+  [1] At util\Factory::__callStatic("controller", Array[4]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:76)
+  [2] At util\Factory::controller("\icons\cogeditController", [mvc\RESTRequest], "/icons/", "cog_edit") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:76)
+  [3] At mvc\RESTRequest->resolveController("/icons/", "\icons\", "cog_edit") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:55)
+  [4] At mvc\RESTRequest->resolve() (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\App.class.php:80)
+  [5] At mvc\App::run([mvc\RESTRequest]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\request.php:65)
+
+[2013-11-20 17:58:26] [::1] DBG:Uncaught core\CoreException: Class not found "cogerrorController". ( Namespace: "controler", "app" )
+  At C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\util\Factory.class.php:164
+  [0] At util\Factory->getInstance("cogerrorController", "\icons", Array[3]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\util\Factory.class.php:215)
+  [1] At util\Factory::__callStatic("controller", Array[4]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:76)
+  [2] At util\Factory::controller("\icons\cogerrorController", [mvc\RESTRequest], "/icons/", "cog_error") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:76)
+  [3] At mvc\RESTRequest->resolveController("/icons/", "\icons\", "cog_error") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:55)
+  [4] At mvc\RESTRequest->resolve() (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\App.class.php:80)
+  [5] At mvc\App::run([mvc\RESTRequest]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\request.php:65)
+
+[2013-11-20 17:58:26] [::1] DBG:Uncaught core\CoreException: Class not found "cogaddController". ( Namespace: "controler", "app" )
+  At C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\util\Factory.class.php:164
+  [0] At util\Factory->getInstance("cogaddController", "\icons", Array[3]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\util\Factory.class.php:215)
+  [1] At util\Factory::__callStatic("controller", Array[4]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:76)
+  [2] At util\Factory::controller("\icons\cogaddController", [mvc\RESTRequest], "/icons/", "cog_add") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:76)
+  [3] At mvc\RESTRequest->resolveController("/icons/", "\icons\", "cog_add") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:55)
+  [4] At mvc\RESTRequest->resolve() (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\App.class.php:80)
+  [5] At mvc\App::run([mvc\RESTRequest]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\request.php:65)
+
+[2013-11-20 17:58:26] [::1] DBG:Uncaught core\CoreException: Class not found "mvcController". ( Namespace: "controler", "app" )
+  At C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\util\Factory.class.php:164
+  [0] At util\Factory->getInstance("mvcController", "\js", Array[3]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\util\Factory.class.php:215)
+  [1] At util\Factory::__callStatic("controller", Array[4]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:76)
+  [2] At util\Factory::controller("\js\mvcController", [mvc\RESTRequest], "/js/", "mvc") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:76)
+  [3] At mvc\RESTRequest->resolveController("/js/", "\js\", "mvc") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:55)
+  [4] At mvc\RESTRequest->resolve() (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\App.class.php:80)
+  [5] At mvc\App::run([mvc\RESTRequest]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\request.php:65)
+
+[2013-11-20 17:58:27] [::1] DBG:Uncaught core\CoreException: Class not found "cogeditController". ( Namespace: "controler", "app" )
+  At C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\util\Factory.class.php:164
+  [0] At util\Factory->getInstance("cogeditController", "\icons", Array[3]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\util\Factory.class.php:215)
+  [1] At util\Factory::__callStatic("controller", Array[4]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:76)
+  [2] At util\Factory::controller("\icons\cogeditController", [mvc\RESTRequest], "/icons/", "cog_edit") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:76)
+  [3] At mvc\RESTRequest->resolveController("/icons/", "\icons\", "cog_edit") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:55)
+  [4] At mvc\RESTRequest->resolve() (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\App.class.php:80)
+  [5] At mvc\App::run([mvc\RESTRequest]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\request.php:65)
+
+[2013-11-20 17:58:27] [::1] DBG:Uncaught core\CoreException: Class not found "cogaddController". ( Namespace: "controler", "app" )
+  At C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\util\Factory.class.php:164
+  [0] At util\Factory->getInstance("cogaddController", "\icons", Array[3]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\util\Factory.class.php:215)
+  [1] At util\Factory::__callStatic("controller", Array[4]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:76)
+  [2] At util\Factory::controller("\icons\cogaddController", [mvc\RESTRequest], "/icons/", "cog_add") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:76)
+  [3] At mvc\RESTRequest->resolveController("/icons/", "\icons\", "cog_add") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:55)
+  [4] At mvc\RESTRequest->resolve() (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\App.class.php:80)
+  [5] At mvc\App::run([mvc\RESTRequest]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\request.php:65)
+
+[2013-11-20 17:58:27] [::1] DBG:Uncaught core\CoreException: Class not found "cogerrorController". ( Namespace: "controler", "app" )
+  At C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\util\Factory.class.php:164
+  [0] At util\Factory->getInstance("cogerrorController", "\icons", Array[3]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\util\Factory.class.php:215)
+  [1] At util\Factory::__callStatic("controller", Array[4]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:76)
+  [2] At util\Factory::controller("\icons\cogerrorController", [mvc\RESTRequest], "/icons/", "cog_error") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:76)
+  [3] At mvc\RESTRequest->resolveController("/icons/", "\icons\", "cog_error") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:55)
+  [4] At mvc\RESTRequest->resolve() (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\App.class.php:80)
+  [5] At mvc\App::run([mvc\RESTRequest]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\request.php:65)
+
+[2013-11-20 17:58:50] [::1] DBG:Uncaught core\CoreException: Class not found "ormController". ( Namespace: "controler", "app" )
+  At C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\util\Factory.class.php:164
+  [0] At util\Factory->getInstance("ormController", "\css", Array[3]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\util\Factory.class.php:215)
+  [1] At util\Factory::__callStatic("controller", Array[4]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:76)
+  [2] At util\Factory::controller("\css\ormController", [mvc\RESTRequest], "/css/", "orm") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:76)
+  [3] At mvc\RESTRequest->resolveController("/css/", "\css\", "orm") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:55)
+  [4] At mvc\RESTRequest->resolve() (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\App.class.php:80)
+  [5] At mvc\App::run([mvc\RESTRequest]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\request.php:65)
+
+[2013-11-20 17:58:50] [::1] DBG:Uncaught core\CoreException: Class not found "ormController". ( Namespace: "controler", "app" )
+  At C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\util\Factory.class.php:164
+  [0] At util\Factory->getInstance("ormController", "\js", Array[3]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\util\Factory.class.php:215)
+  [1] At util\Factory::__callStatic("controller", Array[4]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:76)
+  [2] At util\Factory::controller("\js\ormController", [mvc\RESTRequest], "/js/", "orm") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:76)
+  [3] At mvc\RESTRequest->resolveController("/js/", "\js\", "orm") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:55)
+  [4] At mvc\RESTRequest->resolve() (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\App.class.php:80)
+  [5] At mvc\App::run([mvc\RESTRequest]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\request.php:65)
+
+[2013-11-20 17:58:50] [::1] DBG:Uncaught core\CoreException: Class not found "jqueryController". ( Namespace: "controler", "app" )
+  At C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\util\Factory.class.php:164
+  [0] At util\Factory->getInstance("jqueryController", "\js", Array[3]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\util\Factory.class.php:215)
+  [1] At util\Factory::__callStatic("controller", Array[4]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:76)
+  [2] At util\Factory::controller("\js\jqueryController", [mvc\RESTRequest], "/js/", "jquery") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:76)
+  [3] At mvc\RESTRequest->resolveController("/js/", "\js\", "jquery") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:55)
+  [4] At mvc\RESTRequest->resolve() (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\App.class.php:80)
+  [5] At mvc\App::run([mvc\RESTRequest]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\request.php:65)
+
+[2013-11-20 17:58:50] [::1] DBG:Uncaught core\CoreException: Class not found "jqueryController". ( Namespace: "controler", "app" )
+  At C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\util\Factory.class.php:164
+  [0] At util\Factory->getInstance("jqueryController", "\css", Array[3]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\util\Factory.class.php:215)
+  [1] At util\Factory::__callStatic("controller", Array[4]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:76)
+  [2] At util\Factory::controller("\css\jqueryController", [mvc\RESTRequest], "/css/", "jquery") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:76)
+  [3] At mvc\RESTRequest->resolveController("/css/", "\css\", "jquery") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:55)
+  [4] At mvc\RESTRequest->resolve() (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\App.class.php:80)
+  [5] At mvc\App::run([mvc\RESTRequest]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\request.php:65)
+
+[2013-11-20 17:58:50] [::1] DBG:Uncaught core\CoreException: Class not found "jqueryController". ( Namespace: "controler", "app" )
+  At C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\util\Factory.class.php:164
+  [0] At util\Factory->getInstance("jqueryController", "\js", Array[3]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\util\Factory.class.php:215)
+  [1] At util\Factory::__callStatic("controller", Array[4]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:76)
+  [2] At util\Factory::controller("\js\jqueryController", [mvc\RESTRequest], "/js/", "jquery") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:76)
+  [3] At mvc\RESTRequest->resolveController("/js/", "\js\", "jquery") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:55)
+  [4] At mvc\RESTRequest->resolve() (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\App.class.php:80)
+  [5] At mvc\App::run([mvc\RESTRequest]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\request.php:65)
+
+[2013-11-20 17:58:51] [::1] DBG:Uncaught core\CoreException: Class not found "jqueryController". ( Namespace: "controler", "app" )
+  At C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\util\Factory.class.php:164
+  [0] At util\Factory->getInstance("jqueryController", "\js", Array[3]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\util\Factory.class.php:215)
+  [1] At util\Factory::__callStatic("controller", Array[4]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:76)
+  [2] At util\Factory::controller("\js\jqueryController", [mvc\RESTRequest], "/js/", "jquery") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:76)
+  [3] At mvc\RESTRequest->resolveController("/js/", "\js\", "jquery") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:55)
+  [4] At mvc\RESTRequest->resolve() (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\App.class.php:80)
+  [5] At mvc\App::run([mvc\RESTRequest]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\request.php:65)
+
+[2013-11-20 17:58:54] [::1] DBG:Uncaught core\CoreException: Class not found "cogeditController". ( Namespace: "controler", "app" )
+  At C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\util\Factory.class.php:164
+  [0] At util\Factory->getInstance("cogeditController", "\icons", Array[3]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\util\Factory.class.php:215)
+  [1] At util\Factory::__callStatic("controller", Array[4]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:76)
+  [2] At util\Factory::controller("\icons\cogeditController", [mvc\RESTRequest], "/icons/", "cog_edit") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:76)
+  [3] At mvc\RESTRequest->resolveController("/icons/", "\icons\", "cog_edit") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:55)
+  [4] At mvc\RESTRequest->resolve() (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\App.class.php:80)
+  [5] At mvc\App::run([mvc\RESTRequest]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\request.php:65)
+
+[2013-11-20 17:58:54] [::1] DBG:Uncaught core\CoreException: Class not found "cogerrorController". ( Namespace: "controler", "app" )
+  At C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\util\Factory.class.php:164
+  [0] At util\Factory->getInstance("cogerrorController", "\icons", Array[3]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\util\Factory.class.php:215)
+  [1] At util\Factory::__callStatic("controller", Array[4]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:76)
+  [2] At util\Factory::controller("\icons\cogerrorController", [mvc\RESTRequest], "/icons/", "cog_error") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:76)
+  [3] At mvc\RESTRequest->resolveController("/icons/", "\icons\", "cog_error") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:55)
+  [4] At mvc\RESTRequest->resolve() (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\App.class.php:80)
+  [5] At mvc\App::run([mvc\RESTRequest]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\request.php:65)
+
+[2013-11-20 17:58:54] [::1] DBG:Uncaught core\CoreException: Class not found "cogaddController". ( Namespace: "controler", "app" )
+  At C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\util\Factory.class.php:164
+  [0] At util\Factory->getInstance("cogaddController", "\icons", Array[3]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\util\Factory.class.php:215)
+  [1] At util\Factory::__callStatic("controller", Array[4]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:76)
+  [2] At util\Factory::controller("\icons\cogaddController", [mvc\RESTRequest], "/icons/", "cog_add") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:76)
+  [3] At mvc\RESTRequest->resolveController("/icons/", "\icons\", "cog_add") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:55)
+  [4] At mvc\RESTRequest->resolve() (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\App.class.php:80)
+  [5] At mvc\App::run([mvc\RESTRequest]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\request.php:65)
+
+[2013-11-20 17:58:54] [::1] DBG:Uncaught core\CoreException: Class not found "mvcController". ( Namespace: "controler", "app" )
+  At C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\util\Factory.class.php:164
+  [0] At util\Factory->getInstance("mvcController", "\js", Array[3]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\util\Factory.class.php:215)
+  [1] At util\Factory::__callStatic("controller", Array[4]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:76)
+  [2] At util\Factory::controller("\js\mvcController", [mvc\RESTRequest], "/js/", "mvc") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:76)
+  [3] At mvc\RESTRequest->resolveController("/js/", "\js\", "mvc") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:55)
+  [4] At mvc\RESTRequest->resolve() (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\App.class.php:80)
+  [5] At mvc\App::run([mvc\RESTRequest]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\request.php:65)
+
+[2013-11-20 17:58:54] [::1] DBG:Uncaught core\CoreException: Class not found "cogerrorController". ( Namespace: "controler", "app" )
+  At C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\util\Factory.class.php:164
+  [0] At util\Factory->getInstance("cogerrorController", "\icons", Array[3]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\util\Factory.class.php:215)
+  [1] At util\Factory::__callStatic("controller", Array[4]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:76)
+  [2] At util\Factory::controller("\icons\cogerrorController", [mvc\RESTRequest], "/icons/", "cog_error") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:76)
+  [3] At mvc\RESTRequest->resolveController("/icons/", "\icons\", "cog_error") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:55)
+  [4] At mvc\RESTRequest->resolve() (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\App.class.php:80)
+  [5] At mvc\App::run([mvc\RESTRequest]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\request.php:65)
+
+[2013-11-20 17:58:54] [::1] DBG:Uncaught core\CoreException: Class not found "cogaddController". ( Namespace: "controler", "app" )
+  At C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\util\Factory.class.php:164
+  [0] At util\Factory->getInstance("cogaddController", "\icons", Array[3]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\util\Factory.class.php:215)
+  [1] At util\Factory::__callStatic("controller", Array[4]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:76)
+  [2] At util\Factory::controller("\icons\cogaddController", [mvc\RESTRequest], "/icons/", "cog_add") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:76)
+  [3] At mvc\RESTRequest->resolveController("/icons/", "\icons\", "cog_add") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:55)
+  [4] At mvc\RESTRequest->resolve() (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\App.class.php:80)
+  [5] At mvc\App::run([mvc\RESTRequest]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\request.php:65)
+
+[2013-11-20 17:58:54] [::1] DBG:Uncaught core\CoreException: Class not found "cogeditController". ( Namespace: "controler", "app" )
+  At C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\util\Factory.class.php:164
+  [0] At util\Factory->getInstance("cogeditController", "\icons", Array[3]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\util\Factory.class.php:215)
+  [1] At util\Factory::__callStatic("controller", Array[4]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:76)
+  [2] At util\Factory::controller("\icons\cogeditController", [mvc\RESTRequest], "/icons/", "cog_edit") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:76)
+  [3] At mvc\RESTRequest->resolveController("/icons/", "\icons\", "cog_edit") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:55)
+  [4] At mvc\RESTRequest->resolve() (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\App.class.php:80)
+  [5] At mvc\App::run([mvc\RESTRequest]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\request.php:65)
+
+[2013-11-20 17:59:16] [::1] DBG:Uncaught core\CoreException: Class not found "cogaddController". ( Namespace: "controler", "app" )
+  At C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\util\Factory.class.php:164
+  [0] At util\Factory->getInstance("cogaddController", "\icons", Array[3]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\util\Factory.class.php:215)
+  [1] At util\Factory::__callStatic("controller", Array[4]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:76)
+  [2] At util\Factory::controller("\icons\cogaddController", [mvc\RESTRequest], "/icons/", "cog_add") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:76)
+  [3] At mvc\RESTRequest->resolveController("/icons/", "\icons\", "cog_add") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:55)
+  [4] At mvc\RESTRequest->resolve() (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\App.class.php:80)
+  [5] At mvc\App::run([mvc\RESTRequest]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\request.php:65)
+
+[2013-11-20 17:59:16] [::1] DBG:Uncaught core\CoreException: Class not found "cogerrorController". ( Namespace: "controler", "app" )
+  At C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\util\Factory.class.php:164
+  [0] At util\Factory->getInstance("cogerrorController", "\icons", Array[3]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\util\Factory.class.php:215)
+  [1] At util\Factory::__callStatic("controller", Array[4]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:76)
+  [2] At util\Factory::controller("\icons\cogerrorController", [mvc\RESTRequest], "/icons/", "cog_error") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:76)
+  [3] At mvc\RESTRequest->resolveController("/icons/", "\icons\", "cog_error") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:55)
+  [4] At mvc\RESTRequest->resolve() (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\App.class.php:80)
+  [5] At mvc\App::run([mvc\RESTRequest]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\request.php:65)
+
+[2013-11-20 17:59:16] [::1] DBG:Uncaught core\CoreException: Class not found "cogaddController". ( Namespace: "controler", "app" )
+  At C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\util\Factory.class.php:164
+  [0] At util\Factory->getInstance("cogaddController", "\icons", Array[3]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\util\Factory.class.php:215)
+  [1] At util\Factory::__callStatic("controller", Array[4]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:76)
+  [2] At util\Factory::controller("\icons\cogaddController", [mvc\RESTRequest], "/icons/", "cog_add") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:76)
+  [3] At mvc\RESTRequest->resolveController("/icons/", "\icons\", "cog_add") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:55)
+  [4] At mvc\RESTRequest->resolve() (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\App.class.php:80)
+  [5] At mvc\App::run([mvc\RESTRequest]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\request.php:65)
+
+[2013-11-20 18:01:13] [::1] DBG:Uncaught core\CoreException: Class not found "jqueryController". ( Namespace: "controler", "app" )
+  At C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\util\Factory.class.php:164
+  [0] At util\Factory->getInstance("jqueryController", "\css", Array[3]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\util\Factory.class.php:215)
+  [1] At util\Factory::__callStatic("controller", Array[4]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:76)
+  [2] At util\Factory::controller("\css\jqueryController", [mvc\RESTRequest], "/css/", "jquery") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:76)
+  [3] At mvc\RESTRequest->resolveController("/css/", "\css\", "jquery") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:55)
+  [4] At mvc\RESTRequest->resolve() (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\App.class.php:80)
+  [5] At mvc\App::run([mvc\RESTRequest]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\request.php:65)
+
+[2013-11-20 18:01:13] [::1] DBG:Uncaught core\CoreException: Class not found "mvcController". ( Namespace: "controler", "app" )
+  At C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\util\Factory.class.php:164
+  [0] At util\Factory->getInstance("mvcController", "\js", Array[3]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\util\Factory.class.php:215)
+  [1] At util\Factory::__callStatic("controller", Array[4]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:76)
+  [2] At util\Factory::controller("\js\mvcController", [mvc\RESTRequest], "/js/", "mvc") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:76)
+  [3] At mvc\RESTRequest->resolveController("/js/", "\js\", "mvc") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:55)
+  [4] At mvc\RESTRequest->resolve() (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\App.class.php:80)
+  [5] At mvc\App::run([mvc\RESTRequest]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\request.php:65)
+
+[2013-11-20 18:01:13] [::1] DBG:Uncaught core\CoreException: Class not found "ormController". ( Namespace: "controler", "app" )
+  At C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\util\Factory.class.php:164
+  [0] At util\Factory->getInstance("ormController", "\css", Array[3]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\util\Factory.class.php:215)
+  [1] At util\Factory::__callStatic("controller", Array[4]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:76)
+  [2] At util\Factory::controller("\css\ormController", [mvc\RESTRequest], "/css/", "orm") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:76)
+  [3] At mvc\RESTRequest->resolveController("/css/", "\css\", "orm") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:55)
+  [4] At mvc\RESTRequest->resolve() (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\App.class.php:80)
+  [5] At mvc\App::run([mvc\RESTRequest]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\request.php:65)
+
+[2013-11-20 18:01:13] [::1] DBG:Uncaught core\CoreException: Class not found "jqueryController". ( Namespace: "controler", "app" )
+  At C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\util\Factory.class.php:164
+  [0] At util\Factory->getInstance("jqueryController", "\js", Array[3]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\util\Factory.class.php:215)
+  [1] At util\Factory::__callStatic("controller", Array[4]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:76)
+  [2] At util\Factory::controller("\js\jqueryController", [mvc\RESTRequest], "/js/", "jquery") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:76)
+  [3] At mvc\RESTRequest->resolveController("/js/", "\js\", "jquery") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:55)
+  [4] At mvc\RESTRequest->resolve() (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\App.class.php:80)
+  [5] At mvc\App::run([mvc\RESTRequest]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\request.php:65)
+
+[2013-11-20 18:01:16] [::1] DBG:Uncaught core\CoreException: Class not found "mvcController". ( Namespace: "controler", "app" )
+  At C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\util\Factory.class.php:164
+  [0] At util\Factory->getInstance("mvcController", "\js", Array[3]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\util\Factory.class.php:215)
+  [1] At util\Factory::__callStatic("controller", Array[4]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:76)
+  [2] At util\Factory::controller("\js\mvcController", [mvc\RESTRequest], "/js/", "mvc") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:76)
+  [3] At mvc\RESTRequest->resolveController("/js/", "\js\", "mvc") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:55)
+  [4] At mvc\RESTRequest->resolve() (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\App.class.php:80)
+  [5] At mvc\App::run([mvc\RESTRequest]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\request.php:65)
+
+[2013-11-20 18:03:11] [::1] DBG:Uncaught core\CoreException: Class not found "ormController". ( Namespace: "controler", "app" )
+  At C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\util\Factory.class.php:164
+  [0] At util\Factory->getInstance("ormController", "\js", Array[3]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\util\Factory.class.php:215)
+  [1] At util\Factory::__callStatic("controller", Array[4]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:76)
+  [2] At util\Factory::controller("\js\ormController", [mvc\RESTRequest], "/js/", "orm") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:76)
+  [3] At mvc\RESTRequest->resolveController("/js/", "\js\", "orm") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:55)
+  [4] At mvc\RESTRequest->resolve() (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\App.class.php:80)
+  [5] At mvc\App::run([mvc\RESTRequest]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\request.php:65)
+
+[2013-11-20 18:03:11] [::1] DBG:Uncaught core\CoreException: Class not found "jqueryController". ( Namespace: "controler", "app" )
+  At C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\util\Factory.class.php:164
+  [0] At util\Factory->getInstance("jqueryController", "\js", Array[3]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\util\Factory.class.php:215)
+  [1] At util\Factory::__callStatic("controller", Array[4]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:76)
+  [2] At util\Factory::controller("\js\jqueryController", [mvc\RESTRequest], "/js/", "jquery") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:76)
+  [3] At mvc\RESTRequest->resolveController("/js/", "\js\", "jquery") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:55)
+  [4] At mvc\RESTRequest->resolve() (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\App.class.php:80)
+  [5] At mvc\App::run([mvc\RESTRequest]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\request.php:65)
+
+[2013-11-20 18:03:11] [::1] DBG:Uncaught core\CoreException: Class not found "mvcController". ( Namespace: "controler", "app" )
+  At C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\util\Factory.class.php:164
+  [0] At util\Factory->getInstance("mvcController", "\js", Array[3]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\util\Factory.class.php:215)
+  [1] At util\Factory::__callStatic("controller", Array[4]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:76)
+  [2] At util\Factory::controller("\js\mvcController", [mvc\RESTRequest], "/js/", "mvc") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:76)
+  [3] At mvc\RESTRequest->resolveController("/js/", "\js\", "mvc") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:55)
+  [4] At mvc\RESTRequest->resolve() (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\App.class.php:80)
+  [5] At mvc\App::run([mvc\RESTRequest]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\request.php:65)
+
+[2013-11-20 18:03:11] [::1] DBG:Uncaught core\CoreException: Class not found "jqueryController". ( Namespace: "controler", "app" )
+  At C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\util\Factory.class.php:164
+  [0] At util\Factory->getInstance("jqueryController", "\js", Array[3]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\util\Factory.class.php:215)
+  [1] At util\Factory::__callStatic("controller", Array[4]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:76)
+  [2] At util\Factory::controller("\js\jqueryController", [mvc\RESTRequest], "/js/", "jquery") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:76)
+  [3] At mvc\RESTRequest->resolveController("/js/", "\js\", "jquery") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:55)
+  [4] At mvc\RESTRequest->resolve() (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\App.class.php:80)
+  [5] At mvc\App::run([mvc\RESTRequest]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\request.php:65)
+
+[2013-11-20 18:03:14] [::1] DBG:Uncaught core\CoreException: Class not found "cogerrorController". ( Namespace: "controler", "app" )
+  At C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\util\Factory.class.php:164
+  [0] At util\Factory->getInstance("cogerrorController", "\icons", Array[3]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\util\Factory.class.php:215)
+  [1] At util\Factory::__callStatic("controller", Array[4]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:76)
+  [2] At util\Factory::controller("\icons\cogerrorController", [mvc\RESTRequest], "/icons/", "cog_error") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:76)
+  [3] At mvc\RESTRequest->resolveController("/icons/", "\icons\", "cog_error") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:55)
+  [4] At mvc\RESTRequest->resolve() (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\App.class.php:80)
+  [5] At mvc\App::run([mvc\RESTRequest]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\request.php:65)
+
+[2013-11-20 18:03:14] [::1] DBG:Uncaught core\CoreException: Class not found "cogaddController". ( Namespace: "controler", "app" )
+  At C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\util\Factory.class.php:164
+  [0] At util\Factory->getInstance("cogaddController", "\icons", Array[3]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\util\Factory.class.php:215)
+  [1] At util\Factory::__callStatic("controller", Array[4]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:76)
+  [2] At util\Factory::controller("\icons\cogaddController", [mvc\RESTRequest], "/icons/", "cog_add") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:76)
+  [3] At mvc\RESTRequest->resolveController("/icons/", "\icons\", "cog_add") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:55)
+  [4] At mvc\RESTRequest->resolve() (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\App.class.php:80)
+  [5] At mvc\App::run([mvc\RESTRequest]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\request.php:65)
+
+[2013-11-20 18:03:14] [::1] DBG:Uncaught core\CoreException: Class not found "cogeditController". ( Namespace: "controler", "app" )
+  At C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\util\Factory.class.php:164
+  [0] At util\Factory->getInstance("cogeditController", "\icons", Array[3]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\util\Factory.class.php:215)
+  [1] At util\Factory::__callStatic("controller", Array[4]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:76)
+  [2] At util\Factory::controller("\icons\cogeditController", [mvc\RESTRequest], "/icons/", "cog_edit") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:76)
+  [3] At mvc\RESTRequest->resolveController("/icons/", "\icons\", "cog_edit") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:55)
+  [4] At mvc\RESTRequest->resolve() (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\App.class.php:80)
+  [5] At mvc\App::run([mvc\RESTRequest]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\request.php:65)
+
+[2013-11-20 18:03:14] [::1] DBG:Uncaught core\CoreException: Class not found "mvcController". ( Namespace: "controler", "app" )
+  At C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\util\Factory.class.php:164
+  [0] At util\Factory->getInstance("mvcController", "\js", Array[3]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\util\Factory.class.php:215)
+  [1] At util\Factory::__callStatic("controller", Array[4]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:76)
+  [2] At util\Factory::controller("\js\mvcController", [mvc\RESTRequest], "/js/", "mvc") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:76)
+  [3] At mvc\RESTRequest->resolveController("/js/", "\js\", "mvc") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:55)
+  [4] At mvc\RESTRequest->resolve() (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\App.class.php:80)
+  [5] At mvc\App::run([mvc\RESTRequest]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\request.php:65)
+
+[2013-11-20 18:03:15] [::1] DBG:Uncaught core\CoreException: Class not found "cogerrorController". ( Namespace: "controler", "app" )
+  At C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\util\Factory.class.php:164
+  [0] At util\Factory->getInstance("cogerrorController", "\icons", Array[3]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\util\Factory.class.php:215)
+  [1] At util\Factory::__callStatic("controller", Array[4]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:76)
+  [2] At util\Factory::controller("\icons\cogerrorController", [mvc\RESTRequest], "/icons/", "cog_error") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:76)
+  [3] At mvc\RESTRequest->resolveController("/icons/", "\icons\", "cog_error") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:55)
+  [4] At mvc\RESTRequest->resolve() (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\App.class.php:80)
+  [5] At mvc\App::run([mvc\RESTRequest]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\request.php:65)
+
+[2013-11-20 18:03:15] [::1] DBG:Uncaught core\CoreException: Class not found "cogeditController". ( Namespace: "controler", "app" )
+  At C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\util\Factory.class.php:164
+  [0] At util\Factory->getInstance("cogeditController", "\icons", Array[3]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\util\Factory.class.php:215)
+  [1] At util\Factory::__callStatic("controller", Array[4]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:76)
+  [2] At util\Factory::controller("\icons\cogeditController", [mvc\RESTRequest], "/icons/", "cog_edit") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:76)
+  [3] At mvc\RESTRequest->resolveController("/icons/", "\icons\", "cog_edit") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:55)
+  [4] At mvc\RESTRequest->resolve() (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\App.class.php:80)
+  [5] At mvc\App::run([mvc\RESTRequest]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\request.php:65)
+
+[2013-11-20 18:03:15] [::1] DBG:Uncaught core\CoreException: Class not found "cogaddController". ( Namespace: "controler", "app" )
+  At C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\util\Factory.class.php:164
+  [0] At util\Factory->getInstance("cogaddController", "\icons", Array[3]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\util\Factory.class.php:215)
+  [1] At util\Factory::__callStatic("controller", Array[4]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:76)
+  [2] At util\Factory::controller("\icons\cogaddController", [mvc\RESTRequest], "/icons/", "cog_add") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:76)
+  [3] At mvc\RESTRequest->resolveController("/icons/", "\icons\", "cog_add") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:55)
+  [4] At mvc\RESTRequest->resolve() (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\App.class.php:80)
+  [5] At mvc\App::run([mvc\RESTRequest]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\request.php:65)
+
+[2013-11-20 18:03:18] [::1] DBG:Uncaught core\CoreException: Class not found "cogaddController". ( Namespace: "controler", "app" )
+  At C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\util\Factory.class.php:164
+  [0] At util\Factory->getInstance("cogaddController", "\icons", Array[3]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\util\Factory.class.php:215)
+  [1] At util\Factory::__callStatic("controller", Array[4]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:76)
+  [2] At util\Factory::controller("\icons\cogaddController", [mvc\RESTRequest], "/icons/", "cog_add") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:76)
+  [3] At mvc\RESTRequest->resolveController("/icons/", "\icons\", "cog_add") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:55)
+  [4] At mvc\RESTRequest->resolve() (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\App.class.php:80)
+  [5] At mvc\App::run([mvc\RESTRequest]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\request.php:65)
+
+[2013-11-20 18:03:18] [::1] DBG:Uncaught core\CoreException: Class not found "cogerrorController". ( Namespace: "controler", "app" )
+  At C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\util\Factory.class.php:164
+  [0] At util\Factory->getInstance("cogerrorController", "\icons", Array[3]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\util\Factory.class.php:215)
+  [1] At util\Factory::__callStatic("controller", Array[4]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:76)
+  [2] At util\Factory::controller("\icons\cogerrorController", [mvc\RESTRequest], "/icons/", "cog_error") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:76)
+  [3] At mvc\RESTRequest->resolveController("/icons/", "\icons\", "cog_error") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:55)
+  [4] At mvc\RESTRequest->resolve() (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\App.class.php:80)
+  [5] At mvc\App::run([mvc\RESTRequest]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\request.php:65)
+
+[2013-11-20 18:03:18] [::1] DBG:Uncaught core\CoreException: Class not found "cogaddController". ( Namespace: "controler", "app" )
+  At C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\util\Factory.class.php:164
+  [0] At util\Factory->getInstance("cogaddController", "\icons", Array[3]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\util\Factory.class.php:215)
+  [1] At util\Factory::__callStatic("controller", Array[4]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:76)
+  [2] At util\Factory::controller("\icons\cogaddController", [mvc\RESTRequest], "/icons/", "cog_add") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:76)
+  [3] At mvc\RESTRequest->resolveController("/icons/", "\icons\", "cog_add") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:55)
+  [4] At mvc\RESTRequest->resolve() (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\App.class.php:80)
+  [5] At mvc\App::run([mvc\RESTRequest]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\request.php:65)
+
+[2013-11-20 18:08:51] [::1] DBG:Uncaught core\CoreException: Class not found "jqueryController". ( Namespace: "controler", "app" )
+  At C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\util\Factory.class.php:164
+  [0] At util\Factory->getInstance("jqueryController", "\css", Array[3]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\util\Factory.class.php:215)
+  [1] At util\Factory::__callStatic("controller", Array[4]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:76)
+  [2] At util\Factory::controller("\css\jqueryController", [mvc\RESTRequest], "/css/", "jquery") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:76)
+  [3] At mvc\RESTRequest->resolveController("/css/", "\css\", "jquery") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:55)
+  [4] At mvc\RESTRequest->resolve() (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\App.class.php:80)
+  [5] At mvc\App::run([mvc\RESTRequest]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\request.php:65)
+
+[2013-11-20 18:08:51] [::1] DBG:Uncaught core\CoreException: Class not found "mvcController". ( Namespace: "controler", "app" )
+  At C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\util\Factory.class.php:164
+  [0] At util\Factory->getInstance("mvcController", "\js", Array[3]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\util\Factory.class.php:215)
+  [1] At util\Factory::__callStatic("controller", Array[4]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:76)
+  [2] At util\Factory::controller("\js\mvcController", [mvc\RESTRequest], "/js/", "mvc") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:76)
+  [3] At mvc\RESTRequest->resolveController("/js/", "\js\", "mvc") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:55)
+  [4] At mvc\RESTRequest->resolve() (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\App.class.php:80)
+  [5] At mvc\App::run([mvc\RESTRequest]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\request.php:65)
+
+[2013-11-20 18:08:51] [::1] DBG:Uncaught core\CoreException: Class not found "ormController". ( Namespace: "controler", "app" )
+  At C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\util\Factory.class.php:164
+  [0] At util\Factory->getInstance("ormController", "\js", Array[3]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\util\Factory.class.php:215)
+  [1] At util\Factory::__callStatic("controller", Array[4]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:76)
+  [2] At util\Factory::controller("\js\ormController", [mvc\RESTRequest], "/js/", "orm") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:76)
+  [3] At mvc\RESTRequest->resolveController("/js/", "\js\", "orm") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:55)
+  [4] At mvc\RESTRequest->resolve() (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\App.class.php:80)
+  [5] At mvc\App::run([mvc\RESTRequest]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\request.php:65)
+
+[2013-11-20 18:08:51] [::1] DBG:Uncaught core\CoreException: Class not found "jqueryController". ( Namespace: "controler", "app" )
+  At C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\util\Factory.class.php:164
+  [0] At util\Factory->getInstance("jqueryController", "\js", Array[3]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\util\Factory.class.php:215)
+  [1] At util\Factory::__callStatic("controller", Array[4]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:76)
+  [2] At util\Factory::controller("\js\jqueryController", [mvc\RESTRequest], "/js/", "jquery") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:76)
+  [3] At mvc\RESTRequest->resolveController("/js/", "\js\", "jquery") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:55)
+  [4] At mvc\RESTRequest->resolve() (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\App.class.php:80)
+  [5] At mvc\App::run([mvc\RESTRequest]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\request.php:65)
+
+[2013-11-20 18:08:51] [::1] DBG:Uncaught core\CoreException: Class not found "jqueryController". ( Namespace: "controler", "app" )
+  At C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\util\Factory.class.php:164
+  [0] At util\Factory->getInstance("jqueryController", "\js", Array[3]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\util\Factory.class.php:215)
+  [1] At util\Factory::__callStatic("controller", Array[4]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:76)
+  [2] At util\Factory::controller("\js\jqueryController", [mvc\RESTRequest], "/js/", "jquery") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:76)
+  [3] At mvc\RESTRequest->resolveController("/js/", "\js\", "jquery") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:55)
+  [4] At mvc\RESTRequest->resolve() (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\App.class.php:80)
+  [5] At mvc\App::run([mvc\RESTRequest]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\request.php:65)
+
+[2013-11-20 18:08:51] [::1] DBG:Uncaught core\CoreException: Class not found "jqueryController". ( Namespace: "controler", "app" )
+  At C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\util\Factory.class.php:164
+  [0] At util\Factory->getInstance("jqueryController", "\js", Array[3]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\util\Factory.class.php:215)
+  [1] At util\Factory::__callStatic("controller", Array[4]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:76)
+  [2] At util\Factory::controller("\js\jqueryController", [mvc\RESTRequest], "/js/", "jquery") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:76)
+  [3] At mvc\RESTRequest->resolveController("/js/", "\js\", "jquery") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:55)
+  [4] At mvc\RESTRequest->resolve() (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\App.class.php:80)
+  [5] At mvc\App::run([mvc\RESTRequest]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\request.php:65)
+
+[2013-11-20 18:08:54] [::1] DBG:Uncaught core\CoreException: Class not found "cogerrorController". ( Namespace: "controler", "app" )
+  At C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\util\Factory.class.php:164
+  [0] At util\Factory->getInstance("cogerrorController", "\icons", Array[3]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\util\Factory.class.php:215)
+  [1] At util\Factory::__callStatic("controller", Array[4]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:76)
+  [2] At util\Factory::controller("\icons\cogerrorController", [mvc\RESTRequest], "/icons/", "cog_error") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:76)
+  [3] At mvc\RESTRequest->resolveController("/icons/", "\icons\", "cog_error") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:55)
+  [4] At mvc\RESTRequest->resolve() (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\App.class.php:80)
+  [5] At mvc\App::run([mvc\RESTRequest]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\request.php:65)
+
+[2013-11-20 18:08:54] [::1] DBG:Uncaught core\CoreException: Class not found "cogeditController". ( Namespace: "controler", "app" )
+  At C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\util\Factory.class.php:164
+  [0] At util\Factory->getInstance("cogeditController", "\icons", Array[3]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\util\Factory.class.php:215)
+  [1] At util\Factory::__callStatic("controller", Array[4]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:76)
+  [2] At util\Factory::controller("\icons\cogeditController", [mvc\RESTRequest], "/icons/", "cog_edit") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:76)
+  [3] At mvc\RESTRequest->resolveController("/icons/", "\icons\", "cog_edit") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:55)
+  [4] At mvc\RESTRequest->resolve() (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\App.class.php:80)
+  [5] At mvc\App::run([mvc\RESTRequest]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\request.php:65)
+
+[2013-11-20 18:08:54] [::1] DBG:Uncaught core\CoreException: Class not found "cogaddController". ( Namespace: "controler", "app" )
+  At C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\util\Factory.class.php:164
+  [0] At util\Factory->getInstance("cogaddController", "\icons", Array[3]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\util\Factory.class.php:215)
+  [1] At util\Factory::__callStatic("controller", Array[4]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:76)
+  [2] At util\Factory::controller("\icons\cogaddController", [mvc\RESTRequest], "/icons/", "cog_add") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:76)
+  [3] At mvc\RESTRequest->resolveController("/icons/", "\icons\", "cog_add") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:55)
+  [4] At mvc\RESTRequest->resolve() (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\App.class.php:80)
+  [5] At mvc\App::run([mvc\RESTRequest]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\request.php:65)
+
+[2013-11-20 18:08:54] [::1] DBG:Uncaught core\CoreException: Class not found "mvcController". ( Namespace: "controler", "app" )
+  At C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\util\Factory.class.php:164
+  [0] At util\Factory->getInstance("mvcController", "\js", Array[3]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\util\Factory.class.php:215)
+  [1] At util\Factory::__callStatic("controller", Array[4]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:76)
+  [2] At util\Factory::controller("\js\mvcController", [mvc\RESTRequest], "/js/", "mvc") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:76)
+  [3] At mvc\RESTRequest->resolveController("/js/", "\js\", "mvc") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:55)
+  [4] At mvc\RESTRequest->resolve() (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\App.class.php:80)
+  [5] At mvc\App::run([mvc\RESTRequest]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\request.php:65)
+
+[2013-11-20 18:08:55] [::1] DBG:Uncaught core\CoreException: Class not found "cogerrorController". ( Namespace: "controler", "app" )
+  At C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\util\Factory.class.php:164
+  [0] At util\Factory->getInstance("cogerrorController", "\icons", Array[3]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\util\Factory.class.php:215)
+  [1] At util\Factory::__callStatic("controller", Array[4]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:76)
+  [2] At util\Factory::controller("\icons\cogerrorController", [mvc\RESTRequest], "/icons/", "cog_error") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:76)
+  [3] At mvc\RESTRequest->resolveController("/icons/", "\icons\", "cog_error") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:55)
+  [4] At mvc\RESTRequest->resolve() (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\App.class.php:80)
+  [5] At mvc\App::run([mvc\RESTRequest]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\request.php:65)
+
+[2013-11-20 18:08:55] [::1] DBG:Uncaught core\CoreException: Class not found "cogaddController". ( Namespace: "controler", "app" )
+  At C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\util\Factory.class.php:164
+  [0] At util\Factory->getInstance("cogaddController", "\icons", Array[3]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\util\Factory.class.php:215)
+  [1] At util\Factory::__callStatic("controller", Array[4]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:76)
+  [2] At util\Factory::controller("\icons\cogaddController", [mvc\RESTRequest], "/icons/", "cog_add") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:76)
+  [3] At mvc\RESTRequest->resolveController("/icons/", "\icons\", "cog_add") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:55)
+  [4] At mvc\RESTRequest->resolve() (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\App.class.php:80)
+  [5] At mvc\App::run([mvc\RESTRequest]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\request.php:65)
+
+[2013-11-20 18:08:55] [::1] DBG:Uncaught core\CoreException: Class not found "cogeditController". ( Namespace: "controler", "app" )
+  At C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\util\Factory.class.php:164
+  [0] At util\Factory->getInstance("cogeditController", "\icons", Array[3]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\util\Factory.class.php:215)
+  [1] At util\Factory::__callStatic("controller", Array[4]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:76)
+  [2] At util\Factory::controller("\icons\cogeditController", [mvc\RESTRequest], "/icons/", "cog_edit") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:76)
+  [3] At mvc\RESTRequest->resolveController("/icons/", "\icons\", "cog_edit") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:55)
+  [4] At mvc\RESTRequest->resolve() (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\App.class.php:80)
+  [5] At mvc\App::run([mvc\RESTRequest]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\request.php:65)
+
+[2013-11-20 18:11:51] [::1] DBG:(256) Could not load class "OrmAdminController". (Classpath: "C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN/clases", "C:/Users/jacano/Dropbox/subversion/josea.cano/clases")
+  At C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\bootstrap.php:189
+  [0] At autoload_mvc("OrmAdminController") (Anonymous)
+  [1] At spl_autoload_call("OrmAdminController") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\app\TableController.class.php:11)
+  [2] At require("C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\app\TableController.class.php") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\bootstrap.php:173)
+  [3] At autoload_mvc("app\tableController") (Anonymous)
+  [4] At spl_autoload_call("app\tableController") (Anonymous)
+  [5] At ReflectionClass->__construct("app\tableController") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\util\Factory.class.php:157)
+  [6] At util\Factory->getInstance("tableController", "", Array[3]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\util\Factory.class.php:215)
+  [7] At util\Factory::__callStatic("controller", Array[4]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:76)
+  [8] At util\Factory::controller("\tableController", [mvc\RESTRequest], "/", "table") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:76)
+  [9] At mvc\RESTRequest->resolveController("/", "\", "table") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:55)
+  [10] At mvc\RESTRequest->resolve() (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\App.class.php:80)
+  [11] At mvc\App::run([mvc\RESTRequest]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\request.php:65)
+
+[2013-11-21 09:33:49] [::1] DBG:(256) Could not load class "OrmAdminController". (Classpath: "C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN/clases", "C:/Users/jacano/Dropbox/subversion/josea.cano/clases")
+  At C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\bootstrap.php:189
+  [0] At autoload_mvc("OrmAdminController") (Anonymous)
+  [1] At spl_autoload_call("OrmAdminController") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\app\TableController.class.php:11)
+  [2] At require("C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\app\TableController.class.php") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\bootstrap.php:173)
+  [3] At autoload_mvc("app\tableController") (Anonymous)
+  [4] At spl_autoload_call("app\tableController") (Anonymous)
+  [5] At ReflectionClass->__construct("app\tableController") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\util\Factory.class.php:157)
+  [6] At util\Factory->getInstance("tableController", "", Array[3]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\util\Factory.class.php:215)
+  [7] At util\Factory::__callStatic("controller", Array[4]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:76)
+  [8] At util\Factory::controller("\tableController", [mvc\RESTRequest], "/", "table") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:76)
+  [9] At mvc\RESTRequest->resolveController("/", "\", "table") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:55)
+  [10] At mvc\RESTRequest->resolve() (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\App.class.php:80)
+  [11] At mvc\App::run([mvc\RESTRequest]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\request.php:65)
+
+[2013-11-25 12:35:09] [::1] DBG:(256) Could not load class "OrmAdminController". (Classpath: "C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN/clases", "C:/Users/jacano/Dropbox/subversion/josea.cano/clases")
+  At C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\bootstrap.php:206
+  [0] At autoload_mvc("OrmAdminController") (Anonymous)
+  [1] At spl_autoload_call("OrmAdminController") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\app\TableController.class.php:11)
+  [2] At require("C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\app\TableController.class.php") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\bootstrap.php:190)
+  [3] At autoload_mvc("app\tableController") (Anonymous)
+  [4] At spl_autoload_call("app\tableController") (Anonymous)
+  [5] At ReflectionClass->__construct("app\tableController") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\util\Factory.class.php:157)
+  [6] At util\Factory->getInstance("tableController", "", Array[3]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\util\Factory.class.php:215)
+  [7] At util\Factory::__callStatic("controller", Array[4]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:76)
+  [8] At util\Factory::controller("\tableController", [mvc\RESTRequest], "/", "table") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:76)
+  [9] At mvc\RESTRequest->resolveController("/", "\", "table") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:55)
+  [10] At mvc\RESTRequest->resolve() (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\App.class.php:80)
+  [11] At mvc\App::run([mvc\RESTRequest]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\request.php:76)
+
+[2013-11-25 12:42:26] [::1] DBG:(256) Could not load class "OrmAdminController". (Classpath: "C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN/clases", "C:/Users/jacano/Dropbox/subversion/josea.cano/clases")
+  At C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\bootstrap.php:207
+  [0] At autoload_mvc("OrmAdminController") (Anonymous)
+  [1] At spl_autoload_call("OrmAdminController") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\app\TableController.class.php:11)
+  [2] At require("C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\app\TableController.class.php") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\bootstrap.php:191)
+  [3] At autoload_mvc("app\tableController") (Anonymous)
+  [4] At spl_autoload_call("app\tableController") (Anonymous)
+  [5] At ReflectionClass->__construct("app\tableController") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\util\Factory.class.php:157)
+  [6] At util\Factory->getInstance("tableController", "", Array[3]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\util\Factory.class.php:215)
+  [7] At util\Factory::__callStatic("controller", Array[4]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:76)
+  [8] At util\Factory::controller("\tableController", [mvc\RESTRequest], "/", "table") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:76)
+  [9] At mvc\RESTRequest->resolveController("/", "\", "table") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:55)
+  [10] At mvc\RESTRequest->resolve() (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\App.class.php:80)
+  [11] At mvc\App::run([mvc\RESTRequest]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\request.php:76)
+
+[2013-11-25 12:42:39] [::1] DBG:(256) Could not load class "OrmAdminController". (Classpath: "C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN/clases", "C:/Users/jacano/Dropbox/subversion/josea.cano/clases")
+  At C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\bootstrap.php:207
+  [0] At autoload_mvc("OrmAdminController") (Anonymous)
+  [1] At spl_autoload_call("OrmAdminController") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\app\TableController.class.php:11)
+  [2] At require("C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\app\TableController.class.php") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\bootstrap.php:191)
+  [3] At autoload_mvc("app\tableController") (Anonymous)
+  [4] At spl_autoload_call("app\tableController") (Anonymous)
+  [5] At ReflectionClass->__construct("app\tableController") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\util\Factory.class.php:157)
+  [6] At util\Factory->getInstance("tableController", "", Array[3]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\util\Factory.class.php:215)
+  [7] At util\Factory::__callStatic("controller", Array[4]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:76)
+  [8] At util\Factory::controller("\tableController", [mvc\RESTRequest], "/", "table") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:76)
+  [9] At mvc\RESTRequest->resolveController("/", "\", "table") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:55)
+  [10] At mvc\RESTRequest->resolve() (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\App.class.php:80)
+  [11] At mvc\App::run([mvc\RESTRequest]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\request.php:76)
+
+[2013-11-25 12:42:47] [::1] DBG:(256) Could not load class "OrmAdminController". (Classpath: "C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN/clases", "C:/Users/jacano/Dropbox/subversion/josea.cano/clases")
+  At C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\bootstrap.php:207
+  [0] At autoload_mvc("OrmAdminController") (Anonymous)
+  [1] At spl_autoload_call("OrmAdminController") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\app\TableController.class.php:11)
+  [2] At require("C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\app\TableController.class.php") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\bootstrap.php:191)
+  [3] At autoload_mvc("app\tableController") (Anonymous)
+  [4] At spl_autoload_call("app\tableController") (Anonymous)
+  [5] At ReflectionClass->__construct("app\tableController") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\util\Factory.class.php:157)
+  [6] At util\Factory->getInstance("tableController", "", Array[3]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\util\Factory.class.php:215)
+  [7] At util\Factory::__callStatic("controller", Array[4]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:76)
+  [8] At util\Factory::controller("\tableController", [mvc\RESTRequest], "/", "table") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:76)
+  [9] At mvc\RESTRequest->resolveController("/", "\", "table") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:55)
+  [10] At mvc\RESTRequest->resolve() (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\App.class.php:80)
+  [11] At mvc\App::run([mvc\RESTRequest]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\request.php:76)
+
+[2013-11-25 12:42:56] [::1] DBG:(256) Could not load class "OrmAdminController". (Classpath: "C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN/clases", "C:/Users/jacano/Dropbox/subversion/josea.cano/clases")
+  At C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\bootstrap.php:207
+  [0] At autoload_mvc("OrmAdminController") (Anonymous)
+  [1] At spl_autoload_call("OrmAdminController") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\app\TableController.class.php:11)
+  [2] At require("C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\app\TableController.class.php") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\bootstrap.php:191)
+  [3] At autoload_mvc("app\tableController") (Anonymous)
+  [4] At spl_autoload_call("app\tableController") (Anonymous)
+  [5] At ReflectionClass->__construct("app\tableController") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\util\Factory.class.php:157)
+  [6] At util\Factory->getInstance("tableController", "", Array[3]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\util\Factory.class.php:215)
+  [7] At util\Factory::__callStatic("controller", Array[4]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:76)
+  [8] At util\Factory::controller("\tableController", [mvc\RESTRequest], "/", "table") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:76)
+  [9] At mvc\RESTRequest->resolveController("/", "\", "table") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:55)
+  [10] At mvc\RESTRequest->resolve() (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\App.class.php:80)
+  [11] At mvc\App::run([mvc\RESTRequest]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\request.php:76)
+
+[2013-11-25 12:52:10] [::1] DBG:(256) Could not load class "OrmAdminController". (Classpath: "C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN/clases", "C:/Users/jacano/Dropbox/subversion/josea.cano/clases")
+  At C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\bootstrap.php:207
+  [0] At autoload_mvc("OrmAdminController") (Anonymous)
+  [1] At spl_autoload_call("OrmAdminController") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\app\TableController.class.php:11)
+  [2] At require("C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\app\TableController.class.php") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\bootstrap.php:191)
+  [3] At autoload_mvc("app\tableController") (Anonymous)
+  [4] At spl_autoload_call("app\tableController") (Anonymous)
+  [5] At ReflectionClass->__construct("app\tableController") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\util\Factory.class.php:157)
+  [6] At util\Factory->getInstance("tableController", "", Array[3]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\util\Factory.class.php:215)
+  [7] At util\Factory::__callStatic("controller", Array[4]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:76)
+  [8] At util\Factory::controller("\tableController", [mvc\RESTRequest], "/", "table") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:76)
+  [9] At mvc\RESTRequest->resolveController("/", "\", "table") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:55)
+  [10] At mvc\RESTRequest->resolve() (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\App.class.php:80)
+  [11] At mvc\App::run([mvc\RESTRequest]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\request.php:76)
+
+[2013-11-25 12:52:29] [::1] DBG:(256) Could not load class "OrmAdminController". (Classpath: "C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN/clases", "C:/Users/jacano/Dropbox/subversion/josea.cano/clases")
+  At C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\bootstrap.php:207
+  [0] At autoload_mvc("OrmAdminController") (Anonymous)
+  [1] At spl_autoload_call("OrmAdminController") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\app\TableController.class.php:11)
+  [2] At require("C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\app\TableController.class.php") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\bootstrap.php:191)
+  [3] At autoload_mvc("app\tableController") (Anonymous)
+  [4] At spl_autoload_call("app\tableController") (Anonymous)
+  [5] At ReflectionClass->__construct("app\tableController") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\util\Factory.class.php:157)
+  [6] At util\Factory->getInstance("tableController", "", Array[3]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\util\Factory.class.php:215)
+  [7] At util\Factory::__callStatic("controller", Array[4]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:76)
+  [8] At util\Factory::controller("\tableController", [mvc\RESTRequest], "/", "table") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:76)
+  [9] At mvc\RESTRequest->resolveController("/", "\", "table") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:55)
+  [10] At mvc\RESTRequest->resolve() (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\App.class.php:80)
+  [11] At mvc\App::run([mvc\RESTRequest]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\request.php:76)
+
+[2013-11-25 12:55:04] [::1] DBG:(256) Could not load class "OrmAdminController". (Classpath: "C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN/clases", "C:/Users/jacano/Dropbox/subversion/josea.cano/clases")
+  At C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\bootstrap.php:207
+  [0] At autoload_mvc("OrmAdminController") (Anonymous)
+  [1] At spl_autoload_call("OrmAdminController") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\app\TableController.class.php:11)
+  [2] At require("C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\app\TableController.class.php") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\bootstrap.php:191)
+  [3] At autoload_mvc("app\tableController") (Anonymous)
+  [4] At spl_autoload_call("app\tableController") (Anonymous)
+  [5] At ReflectionClass->__construct("app\tableController") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\util\Factory.class.php:157)
+  [6] At util\Factory->getInstance("tableController", "", Array[3]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\util\Factory.class.php:215)
+  [7] At util\Factory::__callStatic("controller", Array[4]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:76)
+  [8] At util\Factory::controller("\tableController", [mvc\RESTRequest], "/", "table") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:76)
+  [9] At mvc\RESTRequest->resolveController("/", "\", "table") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:55)
+  [10] At mvc\RESTRequest->resolve() (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\App.class.php:80)
+  [11] At mvc\App::run([mvc\RESTRequest]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\request.php:76)
+
+[2013-11-25 12:55:30] [::1] DBG:(256) Could not load class "OrmAdminController". (Classpath: "C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN/clases", "C:/Users/jacano/Dropbox/subversion/josea.cano/clases")
+  At C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\bootstrap.php:207
+  [0] At autoload_mvc("OrmAdminController") (Anonymous)
+  [1] At spl_autoload_call("OrmAdminController") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\app\TableController.class.php:11)
+  [2] At require("C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\app\TableController.class.php") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\bootstrap.php:191)
+  [3] At autoload_mvc("app\tableController") (Anonymous)
+  [4] At spl_autoload_call("app\tableController") (Anonymous)
+  [5] At ReflectionClass->__construct("app\tableController") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\util\Factory.class.php:157)
+  [6] At util\Factory->getInstance("tableController", "", Array[3]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\util\Factory.class.php:215)
+  [7] At util\Factory::__callStatic("controller", Array[4]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:76)
+  [8] At util\Factory::controller("\tableController", [mvc\RESTRequest], "/", "table") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:76)
+  [9] At mvc\RESTRequest->resolveController("/", "\", "table") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:55)
+  [10] At mvc\RESTRequest->resolve() (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\App.class.php:80)
+  [11] At mvc\App::run([mvc\RESTRequest]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\request.php:76)
+
+[2013-11-25 12:56:50] [::1] DBG:(256) Could not load class "OrmAdminController". (Classpath: "C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN/clases", "C:/Users/jacano/Dropbox/subversion/josea.cano/clases")
+  At C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\bootstrap.php:207
+  [0] At autoload_mvc("OrmAdminController") (Anonymous)
+  [1] At spl_autoload_call("OrmAdminController") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\app\TableController.class.php:11)
+  [2] At require("C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\app\TableController.class.php") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\bootstrap.php:191)
+  [3] At autoload_mvc("app\tableController") (Anonymous)
+  [4] At spl_autoload_call("app\tableController") (Anonymous)
+  [5] At ReflectionClass->__construct("app\tableController") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\util\Factory.class.php:157)
+  [6] At util\Factory->getInstance("tableController", "", Array[3]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\util\Factory.class.php:215)
+  [7] At util\Factory::__callStatic("controller", Array[4]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:76)
+  [8] At util\Factory::controller("\tableController", [mvc\RESTRequest], "/", "table") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:76)
+  [9] At mvc\RESTRequest->resolveController("/", "\", "table") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:55)
+  [10] At mvc\RESTRequest->resolve() (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\App.class.php:80)
+  [11] At mvc\App::run([mvc\RESTRequest]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\request.php:76)
+
+[2013-11-25 12:58:22] [::1] DBG:Uncaught core\CoreException: Class not found "tableController". ( Namespace: "mvc/controler", "app/controler", "app/admin/controler", "admin/controler", "app" )
+  At C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\util\Factory.class.php:164
+  [0] At util\Factory->getInstance("tableController", "\ormAdmin", Array[3]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\util\Factory.class.php:215)
+  [1] At util\Factory::__callStatic("controller", Array[4]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:76)
+  [2] At util\Factory::controller("\ormAdmin\tableController", [mvc\RESTRequest], "/ormAdmin/", "table") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:76)
+  [3] At mvc\RESTRequest->resolveController("/ormAdmin/", "\ormAdmin\", "table") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:55)
+  [4] At mvc\RESTRequest->resolve() (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\App.class.php:80)
+  [5] At mvc\App::run([mvc\RESTRequest]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\request.php:76)
+
+[2013-11-25 13:00:48] [::1] DBG:(256) Could not load class "OrmAdminController". (Classpath: "C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN/clases", "C:/Users/jacano/Dropbox/subversion/josea.cano/clases")
+  At C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\bootstrap.php:207
+  [0] At autoload_mvc("OrmAdminController") (Anonymous)
+  [1] At spl_autoload_call("OrmAdminController") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\app\TableController.class.php:11)
+  [2] At require("C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\app\TableController.class.php") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\bootstrap.php:191)
+  [3] At autoload_mvc("app\tableController") (Anonymous)
+  [4] At spl_autoload_call("app\tableController") (Anonymous)
+  [5] At ReflectionClass->__construct("app\tableController") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\util\Factory.class.php:157)
+  [6] At util\Factory->getInstance("tableController", "", Array[3]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\util\Factory.class.php:215)
+  [7] At util\Factory::__callStatic("controller", Array[4]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:76)
+  [8] At util\Factory::controller("\tableController", [mvc\RESTRequest], "/", "table") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:76)
+  [9] At mvc\RESTRequest->resolveController("/", "\", "table") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:55)
+  [10] At mvc\RESTRequest->resolve() (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\App.class.php:80)
+  [11] At mvc\App::run([mvc\RESTRequest]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\request.php:76)
+
+[2013-11-25 13:01:05] [::1] DBG:(256) Could not load class "OrmAdminController". (Classpath: "C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN/clases", "C:/Users/jacano/Dropbox/subversion/josea.cano/clases")
+  At C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\bootstrap.php:207
+  [0] At autoload_mvc("OrmAdminController") (Anonymous)
+  [1] At spl_autoload_call("OrmAdminController") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\app\TableController.class.php:11)
+  [2] At require("C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\app\TableController.class.php") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\bootstrap.php:191)
+  [3] At autoload_mvc("app\tableController") (Anonymous)
+  [4] At spl_autoload_call("app\tableController") (Anonymous)
+  [5] At ReflectionClass->__construct("app\tableController") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\util\Factory.class.php:157)
+  [6] At util\Factory->getInstance("tableController", "", Array[3]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\util\Factory.class.php:215)
+  [7] At util\Factory::__callStatic("controller", Array[4]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:76)
+  [8] At util\Factory::controller("\tableController", [mvc\RESTRequest], "/", "table") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:76)
+  [9] At mvc\RESTRequest->resolveController("/", "\", "table") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:55)
+  [10] At mvc\RESTRequest->resolve() (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\App.class.php:80)
+  [11] At mvc\App::run([mvc\RESTRequest]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\request.php:76)
+
+[2013-11-25 13:01:15] [::1] DBG:(256) Could not load class "OrmAdminController". (Classpath: "C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN/clases", "C:/Users/jacano/Dropbox/subversion/josea.cano/clases")
+  At C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\bootstrap.php:207
+  [0] At autoload_mvc("OrmAdminController") (Anonymous)
+  [1] At spl_autoload_call("OrmAdminController") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\app\TableController.class.php:11)
+  [2] At require("C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\app\TableController.class.php") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\bootstrap.php:191)
+  [3] At autoload_mvc("app\tableController") (Anonymous)
+  [4] At spl_autoload_call("app\tableController") (Anonymous)
+  [5] At ReflectionClass->__construct("app\tableController") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\util\Factory.class.php:157)
+  [6] At util\Factory->getInstance("tableController", "", Array[3]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\util\Factory.class.php:215)
+  [7] At util\Factory::__callStatic("controller", Array[4]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:76)
+  [8] At util\Factory::controller("\tableController", [mvc\RESTRequest], "/", "table") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:76)
+  [9] At mvc\RESTRequest->resolveController("/", "\", "table") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\RESTRequest.class.php:55)
+  [10] At mvc\RESTRequest->resolve() (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\App.class.php:80)
+  [11] At mvc\App::run([mvc\RESTRequest]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\request.php:76)
+
+[2013-11-25 13:03:56] [::1] DBG:Uncaught mvc\AppContextException: [8] View Error: Unsupported view "XML" for context. Config: mvc\JSONAppConfig: app.json
+  At C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\AppContext.class.php:655
+  [0] At mvc\AppContext->loadViewRenderer("XML") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\AppContext.class.php:328)
+  [1] At mvc\AppContext->getViewRenderer("XML") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\AppResult.class.php:243)
+  [2] At mvc\AppResult->resolveView("/", "table:generate") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\AppResult.class.php:190)
+  [3] At mvc\AppResult->render() (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\request.php:78)
+
+[2013-11-25 13:04:12] [::1] DBG:Uncaught mvc\AppContextException: [8] View Error: Unsupported view "JSON" for context. Config: mvc\JSONAppConfig: app.json
+  At C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\AppContext.class.php:655
+  [0] At mvc\AppContext->loadViewRenderer("JSON") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\AppContext.class.php:328)
+  [1] At mvc\AppContext->getViewRenderer("JSON") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\AppResult.class.php:243)
+  [2] At mvc\AppResult->resolveView("/", "table:generate") (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\AppResult.class.php:190)
+  [3] At mvc\AppResult->render() (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\request.php:78)
+
+[2013-11-25 15:13:30] [::1] DBG:(8) Undefined variable: recursionDepth
+  At C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\views\renderers\JSONViewRenderer.class.php:52
+  [0] At mvc\views\renderers\JSONViewRenderer->render([mvc\Model], [mvc\views\View]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\AppResult.class.php:219)
+  [1] At mvc\AppResult->render() (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\request.php:78)
+
+[2013-11-25 15:14:32] [::1] DBG:(8) Use of undefined constant SIMPLE_XML_ELEMENT_PHP_CLASS - assumed 'SIMPLE_XML_ELEMENT_PHP_CLASS'
+  At C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\views\renderers\JSONViewRenderer.class.php:53
+  [0] At mvc\views\renderers\JSONViewRenderer->render([mvc\Model], [mvc\views\View]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\AppResult.class.php:219)
+  [1] At mvc\AppResult->render() (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\request.php:78)
+
+[2013-11-25 15:15:40] [::1] DBG:(8) Use of undefined constant SIMPLE_XML_ELEMENT_PHP_CLASS - assumed 'SIMPLE_XML_ELEMENT_PHP_CLASS'
+  At C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\views\renderers\JSONViewRenderer.class.php:53
+  [0] At mvc\views\renderers\JSONViewRenderer->render([mvc\Model], [mvc\views\View]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\AppResult.class.php:219)
+  [1] At mvc\AppResult->render() (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\request.php:78)
+
+[2013-11-25 15:15:54] [::1] DBG:(8) Use of undefined constant SIMPLE_XML_ELEMENT_PHP_CLASS - assumed 'SIMPLE_XML_ELEMENT_PHP_CLASS'
+  At C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\views\renderers\JSONViewRenderer.class.php:53
+  [0] At mvc\views\renderers\JSONViewRenderer->render([mvc\Model], [mvc\views\View]) (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\clases\mvc\AppResult.class.php:219)
+  [1] At mvc\AppResult->render() (C:\Users\jacano\Dropbox\subversion\josea.cano\proyectos\SVN\request.php:78)
+

@@ -1,0 +1,12 @@
+Options +FollowSymLinks
+RewriteEngine on
+
+RewriteBase /proyectos/SVN
+
+RewriteRule ^/$ /request.php?rewrite=on&request=index [QSA,L]
+RewriteRule ^$ /request.php?rewrite=on&request=index [QSA,L]
+RewriteRule ^resources/(.*)$ resource.php?resource=$1 [QSA,L]
+RewriteRule ^app(.*)$ request.php?request=$1 [QSA,L]
+
+AddType text/x-component .htc
+

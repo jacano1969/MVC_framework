@@ -1,0 +1,18 @@
+Options +FollowSymLinks
+RewriteEngine on
+
+RewriteCond %{SCRIPT_FILENAME} !-f
+RewriteCond %{SCRIPT_FILENAME} !-d
+
+RewriteBase /proyectos/SVN
+
+RewriteRule ^resources/(.*)$ /resource.php?resource=$1 [QSA,L]
+RewriteRule ^app/(.*)$ /request.php?request=$1 [QSA,L]
+RewriteRule ^classes/(.*)$ /request/forbidden [QSA,L]
+RewriteRule ^views/(.*)$ /request/forbidden [QSA,L]
+RewriteRule .* request.php?request=$1 [QSA,L]
+RewriteRule ^/$ /request.php?request=$1 [QSA,L]
+RewriteRule ^$ /request.php?request=$1 [QSA,L]
+
+AddType text/x-component .htc
+

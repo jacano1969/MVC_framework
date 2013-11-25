@@ -1,0 +1,178 @@
+html, body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: Lucida Grande;
+	margin: 0px;
+}
+
+/** TABLE **/
+.orm-table {
+	border: 1px solid silver;
+	width: 95%;
+	border-collapse: collapse;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.orm-table-small {
+	font-size: 0.9em;
+}
+.orm-table THEAD {
+	background-color: #88c9f0;
+	color: #ffffff;
+}
+.orm-table-small THEAD {
+}
+.orm-table THEAD TH {
+	padding: 5px;
+}
+.orm-table TBODY TD {
+	padding-left: 5px;
+	padding-right: 5px;
+}
+.orm-table TFOOT {
+}
+.orm-row {
+}
+.orm-row-0 {
+}
+.orm-row-1 {
+}
+.orm-row-panel {
+}
+
+.orm-column-left{
+	width:70%;
+	float:left;
+}
+.orm-column-right{
+	width:70%;
+	float:right;
+}
+
+
+
+
+
+/** LISTS **/
+.orm-list {
+	margin: 0;
+	padding-left: 3px;
+	list-style: none;
+}
+
+/** PANEL **/
+.orm-panel {
+	padding: 5px;
+}
+.orm-button-panel {
+	padding: 5px;
+	text-align: center;
+}
+
+.ui-button-text {
+	font-size: 0.9em;
+}
+
+/** BUTTON **/
+button img {
+	display: inline;
+	margin-bottom: -4px;
+}
+
+/** HEADERS **/
+h1, h2, h3, h4 {
+	margin: 0;
+	padding: 0;
+}
+
+label {
+	color: ##001AEE;
+}
+
+/** MESSAGES **/
+.orm-msg {
+	margin: 1px 3px 1px 3px;
+	padding: 5px;
+}
+.orm-msg-custom {
+	background: #EEE url('icons/plugin.png') no-repeat 5px 3px;
+	border: 1px solid #AAA;
+	color: #333;
+}
+.orm-msg-info {
+	background: #DFF url('icons/information.png') no-repeat 5px 3px;
+	border: 1px solid #9BB;
+	color: #066;
+}
+.orm-msg-ok {
+	background: #DFD url('icons/accept.png') no-repeat 5px 3px;
+	border: 1px solid #9B9;
+	color: #060;
+}
+.orm-msg-warn {
+	background: #FFD url('icons/error.png') no-repeat 5px 3px;
+	border: 1px solid #BB0;
+	color: #660;
+}
+.orm-msg-error {
+	background: #FDD url('icons/exclamation.png') no-repeat 5px 3px;
+	border: 1px solid #B99;
+	color: #900;
+}
+.orm-msg-close {
+	float: right;
+	width: 15px;
+	height: 15px;
+	margin-right: 2px;
+	background: transparent url('icons/cross.png');
+	text-decoration: none;
+	cursor: pointer;
+}
+
+/** BEHAVIOURS **/
+.orm-behaviour-align-center {
+	text-align: center;
+}
+
+.orm-behaviour-align-left {
+	text-align: left;
+}
+.orm-behaviour-action {
+	cursor: pointer;
+	font-weight: bold;
+}
+.orm-behaviour-action:hover {
+	text-decoration: underline;
+}
+.orm-behaviour-hidden {
+	display: none;
+}
+
+/** STATES **/
+.orm-state-hint {
+	color: #888 !important;
+}
+
+/** FORMS **/
+.orm-textfield {
+	width: 200px;
+	line-height: 1.3;
+	margin: 2px;
+	padding: 2px;
+	font-size: 12px;
+	color: #666;
+	cursor: text;
+	float: left;
+}
+
+.ui-dialog{
+	background-color: #ffffff;
+}
+
+.orm-checkbox {
+}

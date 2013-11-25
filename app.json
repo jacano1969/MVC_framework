@@ -1,0 +1,91 @@
+{
+	"app": {
+		"id"            : "IW", 															//Id aplicacion
+		"name"          : "ImpresionesWeb", 												//Nombre aplicación
+		"default-locale": "es_ES",															//Idioma por defecto
+		"locale"        : ["es_ES"],														//Idioma soportados
+		"timezone"      : "Europe/Madrid",													//Zona horaria por defecto
+		"encoding"      : "UTF8",															//Encode
+		"logger"        : [																	//Configuracion Log
+			{
+				"level": "5",
+				"type" : "file",
+				"path" : "log/example.log",
+				"name" : "DEFAULT"
+			}
+		],
+		"debug"         : 																	//Configuracion Debug
+		{
+			"level"       : "5",
+			"domain_debug": ["dev.impresionesweb.com", "localhost"],
+			"ips_debug"   : ["192.168.50.34", "192.168.50.34"]
+		},
+		"smartyconf"    : {																	//configuracion Smarty
+			"caching"       : true,
+			"cache_lifetime": 120,
+			"force_compile" : true,
+			"path"          : "util/smarty/libs",
+			"template_path" : "template",
+			"compile_path"  : "compiled",
+			"cache_path"    : "cache",
+			"debug"         :false															//parametro opcional debug
+		},
+		"classpath"     : {																	//Arrays Path classes
+		},
+		"factory"       : [																	//Estructura framework
+			{
+				"name"     : "controller",
+				"namespace": [
+					"mvc/controler",
+					"app/controler",
+					"app/admin/controler",
+					"admin/controler",
+					"app"
+				]
+			},
+			{
+				"name"     : "views",
+				"namespace": [
+					"mvc/views",
+					"app/views",
+					"app/admin/views",
+					"admin/views"
+				]
+			},
+			{
+				"name"     : "model",
+				"namespace": [
+					"mvc/model",
+					"app/model",
+					"app/admin/model",
+					"admin/model"
+				]
+			},
+			{
+				"name"     : "orm",
+				"namespace": [
+					"mvc/orm",
+					"app/orm",
+					"app/admin/orm",
+					"admin/orm"
+				]
+			}
+		],
+		"connection"    : [																	//Conexion BBDD
+			{
+				"name" : "DEFAULT",
+				"flags": "0",
+				"url"  : "mysql://dev_admin:iwdevadmin123@dev.impresionesweb.com/impresionesweb"
+			}
+		],
+		"orm-admin"     : {																	//Acceso al admin ORM
+			"enabled": "true",
+			"namespace":"orm",
+			"classpath":"proyectos/SVN/classes/orm",
+			"camel-case":"true",
+			"foreign-key":"true",
+			"overwrite":"true",
+			"i18n-strategy":null
+		}
+	}
+}
